@@ -5,7 +5,8 @@
     /* text-align: center; */
     margin: 0 auto;
     width: 30%;
-    background-color: lightcoral;
+    background-color: hsl(7, 6%, 29%);
+    color: #F6F3EA;
 }
 
 #form-container>h1 {
