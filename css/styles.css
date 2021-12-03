@@ -1,31 +1,34 @@
-
+/* 
+=== === === Form Styles === === === 
+*/
 #form-container {
     /* text-align: center; */
     margin: 0 auto;
     width: 30%;
     background-color: lightcoral;
-  }
-  
-  #form-container > h1 {
+}
+
+#form-container>h1 {
     text-align: center;
-  }
-  
-  form {
+}
+
+form {
     padding: 10px;
-  }
-  
-  input {
+}
+
+input {
     display: block;
     width: 100%;
-  }
+}
 
-  /* Totally a copy paste job */
-
-  
+/* 
+=== === === Grid Boxes (Container) === === === 
+*/
 body {
     background: #F6F3EA
-  }
-  .container ul {
+}
+
+.container ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -33,29 +36,32 @@ body {
     font-family: Avenir, Heveltica, Arial, san-serif;
     font-weight: bold;
     font-size: 1.5rem;
-  }
-  .container li {
+}
+
+.container li {
     padding: 1em;
-    background: #F9423A;
-  }
-  .container li:nth-child(2),
-  .container li:nth-child(6){
-    background: #444;
-  }
-  .container li:nth-child(8),
-  .container li:nth-child(10){
-    background: #4794B8;
-  }
-  .container li:nth-child(3),
-  .container li:nth-child(7),
-  .container li:nth-child(9) {
-    background: #FF9124;
-  }
-  .container ul {
+    background: hsl(7, 6%, 29%);
+}
+
+.container li:nth-child(2),
+.container li:nth-child(6) {
+    background: rgb(145, 111, 111);
+}
+
+.container li:nth-child(8),
+.container li:nth-child(10) {
+    background: hsl(201, 9%, 45%);
+}
+
+.container li:nth-child(3),
+.container li:nth-child(7),
+.container li:nth-child(9) {
+    background: hsl(29, 23%, 18%);
+}
+
+.container ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-auto-rows: 1fr;
     grid-gap: 1rem;
-  }
-  
-  
+}
