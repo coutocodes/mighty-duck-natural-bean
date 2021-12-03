@@ -1,6 +1,4 @@
-# mighty-duck-natural-bean
-Elon edited 
-The mightest cup of coffee!
-
-matthew edited here
-hi Good Morning all
+![Mighty Duck Coffee](images/mighty-duck.jpg)
+# Mighty Duck Coffee Bean
+The mightest cup of coffee!\
+Ann - Gincy - Matthew - Elon - Thiago
