@@ -1,0 +1,20 @@
+
+#form-container {
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 30%;
+    background-color: lightcoral;
+  }
+  
+  #form-container > h1 {
+    text-align: center;
+  }
+  
+  form {
+    padding: 10px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+  }
